@@ -1,0 +1,50 @@
+*{
+    font-family: cursive;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none;
+    color:FFDC00;
+}
+
+.menu{
+    color:01FF70;
+}
+
+body{
+    background-color:#85144B;
+    overflow-y:hidden;
+}
+
+.navbar{
+    background-color:#85144B;
+    position:fixed;
+}
+
+.navbar a{
+    color:white;
+}
+
+.navbar a:hover{
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bolder;
+    color:01FF70;
+}
+
+#gallery img{
+    max-width:100%;
+    background-color:deeppink;
+    padding:10px;
+    width:100%;
+}
+
+#gallery, #hobbies{
+    height:300vh;
+}
+
+#hobbies img{
+    max-width:100%;
+    background-color:deeppink;
+    padding:10px;
+}
