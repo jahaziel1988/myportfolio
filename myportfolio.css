@@ -49,55 +49,63 @@ body{
     padding:10px;
 }
 
-#myskills   {
-    width:100%;
+.skillsbar   {
+    width:50%;
     height:100vh;
     background:#85144B;
 }
 
 .skills{
     font-weight:400;
-    letter-spacing:1px;
+    letter-spacing:5px;
     margin-top:40px;
     margin-bottom:5px;
     color:#fff;
     font-size:16px;
 }
 
-.progress-bar   {
-    background: yellow;
+.progress-bar {
+    background: gray;
     width: 600px;
     height: 10px;
     border-radius:5px;
 }
 
-.progress-bar div{
-    height:10px;
-    border-radius:5px;
-    width:0%;
-}
-
-.progress bar div span{
+.progress-bar span{
     height:40px;
     width:40px;
     border-radius:50%;
-    background:#85144B;
+    background:#222;
     float:right;
     margin-top: -15px;
     margin-right:-20px;
     color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    letter-spacing:1px;
+    font-size:13px;
 }
 
 .html{
     background:#e91e63;
+    height:10px;
+    border-radius:5px;
+    width:90%;
 }
 
 .css{
     background:#cdde39;
+    height:10px;
+    border-radius:5px;
+    width:80%;
 }
 
 .bootstrap{
     background:plum;
+    height:10px;
+    border-radius:5px;
+    width:70%;
 }
 
 .html span{
@@ -108,6 +116,6 @@ body{
     border:1px solid #cdde39;
 }
 
-.html span{
+.bootstrap span{
     border:1px solid plum;
 }
